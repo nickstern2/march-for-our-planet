@@ -3,6 +3,9 @@
   background-position: center;
   padding: 150px 0;
   height: 100vh;
+  // position: fixed;
+  // background-position: 0% 0% !important;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://cdn.vox-cdn.com/thumbor/QbK6eH-TGuxTgStqCsNYk652NSk=/0x0:6519x4346/920x613/filters:focal(2739x1652:3781x2694):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/64012812/GettyImages_1150190120.0.jpg');
 }
 
 .banner h1 {
@@ -26,7 +29,7 @@ h1.banner-title{
 }
 
 .home-button {
-  margin-top: 20px;
+  // margin-top: 20px;
   border: 1px;
   height: 55px;
   width: 160px;
@@ -39,6 +42,7 @@ h1.banner-title{
 button.home-button:hover {
   background-color: #e81212;
   font-size: 19px;
+  // transform: scale(1..1) rotate(360deg);
 }
 
 button.home-button a {
