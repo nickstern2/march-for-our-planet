@@ -24,12 +24,40 @@ h1.banner-title{
   color: #fff7f7;
 }
 
-a.btn-danger {
-  border-radius: 10px;
-  color: #fff7f7;
+.home-button {
+  border: 1px;
+  height: 55px;
+  width: 160px;
+  // color: #fff7f7;
+  background-color: #ff4747;
+  border-radius: 26px;
+  // text-decoration: none;
 }
 
-a.btn-danger:hover {
-  color: #ffffff;
-font-weight: bolder;
+button.home-button:hover {
+  background-color: #e81212;
+  font-size: 19px;
 }
+
+button.home-button a {
+  color: white;
+ text-decoration: none;
+ font-size: 18px;
+ font-weight: 700;
+}
+
+ button.home-button:hover a {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 900;
+ }
+
+// a.btn-danger {
+//   border-radius: 10px;
+//   color: #fff7f7;
+// }
+
+// a.btn-danger:hover {
+//   color: #ffffff;
+// font-weight: bolder;
+// }
