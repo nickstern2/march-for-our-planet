@@ -3,6 +3,11 @@
   background: #202021;
 }
 
+.navbar {
+  position: sticky !important;
+  top: 0 !important;
+}
+
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
