@@ -1,0 +1,35 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+h1.banner-title{
+  font-size: 70px;
+  font-weight: bolder;
+  color: #fff7f7;
+}
+
+a.btn-danger {
+  border-radius: 10px;
+  color: #fff7f7;
+}
+
+a.btn-danger:hover {
+  color: #ffffff;
+font-weight: bolder;
+}
