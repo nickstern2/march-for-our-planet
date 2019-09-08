@@ -36,6 +36,7 @@ h1.banner-title{
   // color: #fff7f7;
   background-color: #ff4747;
   border-radius: 26px;
+  text-decoration: none;
   // text-decoration: none;
 }
 
@@ -45,14 +46,13 @@ button.home-button:hover {
   // transform: scale(1..1) rotate(360deg);
 }
 
-button.home-button a {
+.button-inner {
   color: white;
- text-decoration: none;
- font-size: 18px;
- font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
 }
 
- button.home-button:hover a {
+ .button-inner:hover {
   color: #ffffff;
   font-size: 19px;
   font-weight: 900;
