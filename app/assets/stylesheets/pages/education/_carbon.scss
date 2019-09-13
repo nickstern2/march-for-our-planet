@@ -29,14 +29,14 @@
 }
 @media (min-width: 100px) and (max-width: 575px) {
   #carbon-wrapper {
-    height: 250vh;
+    height: 300vh;
   }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   #carbon-wrapper {
-    height: 200vh;
+    height: 250vh;
   }
 }
 
@@ -51,6 +51,18 @@
 @media (min-width: 992px) {
   #carbon-wrapper {
   height: 100vh;
+  }
+}
+
+//************IMG Responsiveness***************
+@media (max-width: 768px){
+  .scarbon-img img{
+    transform: none !important;
+  }
+  .carbon-img {
+    position: relative !important;
+    /* This is just some top padding */
+    padding-top: 30px;
   }
 }
 
