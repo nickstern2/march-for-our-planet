@@ -55,16 +55,17 @@
 }
 
 //************IMG Responsiveness***************
-@media (max-width: 768px){
-  .scarbon-img img{
-    transform: none !important;
-  }
-  .carbon-img {
-    position: relative !important;
-    /* This is just some top padding */
-    padding-top: 30px;
-  }
-}
+// **********NEEDS WORK*******
+// @media (max-width: 768px){
+//   .scarbon-img img{
+//     transform: none !important;
+//   }
+//   .carbon-img {
+//     position: relative !important;
+//     /* This is just some top padding */
+//     padding-top: 30px;
+//   }
+// }
 
 //**********Got from stackoverflow*********
 // @media screen and (max-width:500px){
