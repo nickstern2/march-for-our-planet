@@ -16,3 +16,30 @@
 .temp-text p {
   font-size: 20px;
 }
+
+@media (min-width: 100px) and (max-width: 575px) {
+  #temp-wrapper {
+    height: 250vh;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #temp-wrapper {
+    height: 200vh;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #temp-wrapper {
+    height: 150vh;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #temp-wrapper {
+  height: 100vh;
+  }
+}
