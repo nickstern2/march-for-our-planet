@@ -1,0 +1,49 @@
+
+.navbar-science .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-science .navbar-brand img {
+  width: 40px;
+}
+
+.navbar-science {
+  background-color: black;
+}
+
+div.nav-icons i {
+  color: white;
+  font-size: 25px;
+}
+
+.navbar {
+  box-shadow: 0 7px 6px -6px black;
+  // display: flex;
+}
+
+.link-p {
+  //Drop home link to match rest
+  margin-top: 8px;
+}
+
+a.nav-link  {
+  color: white !important;
+  display: inline-block;
+  // height: 20px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+li.nav-item {
+  color: white !important;
+  margin-top: 10px;
+  display: inline-block;
+  // height: 20px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+.fab {
+  padding: 5px;
+}
