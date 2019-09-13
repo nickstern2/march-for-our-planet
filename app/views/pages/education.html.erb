@@ -2,13 +2,29 @@
 
 
 
-<div class="container m-5 p-5 facts-container" style="font-size: 30px;">
-  <h1>Science</h1>
-  <p>1: <strong>Historic carbon levels</strong></p>
-  <p>2: <strong>Record Breaking Temperatures</strong></p>
-  <p>3: <strong>Extreme Storms & Flooding </strong></p>
-  <p>4: <strong>Melting Ice & Sea Level Rise</strong></p>
+  <!-- <div id="education-top" class="education-banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://res.cloudinary.com/dxy1zcexj/image/upload/v1568385913/climate-4342959_i3bl1q.jpg')"> -->
+ <div id="education-wrapper">
+  <div class="container m-5 p-5" style="font-size: 30px;">
+      <div class="facts-container">
+        <h1>Science</h1>
+        <a href="#carbon-wrapper">
+          <p>1: Historic carbon levels </p>
+        </a>
+        <a href="#temp-wrapper">
+          <p>2: Record Breaking Temperatures </p>
+        </a>
+        <a href="#storm-wrapper">
+          <p>3: Extreme Storms & Flooding </p>
+        </a>
+        <a href="#melting-wrapper">
+          <p>4: Melting Ice & Sea Level Rise </p>
+        </a>
+    </div>
+  </div>
 </div>
 
 <%= render "carbon" %>
 <%= render "temperature" %>
+<%= render "storms" %>
+<%= render "melting" %>
+<%= render "footer" %>
