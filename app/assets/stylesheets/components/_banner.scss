@@ -11,7 +11,7 @@
 .banner h1 {
   margin: 0;
   color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 4px #000000;
   font-size: 32px;
   font-weight: bold;
 }
@@ -20,12 +20,13 @@
   font-size: 20px;
   color: white;
   opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 4px #000000;
 }
 h1.banner-title{
   font-size: 70px;
   font-weight: bolder;
   color: #fff7f7;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .home-button {
@@ -34,14 +35,14 @@ h1.banner-title{
   height: 55px;
   width: 160px;
   // color: #fff7f7;
-  background-color: #ff4747;
+  background-color: #1781e9;
   border-radius: 26px;
   text-decoration: none;
   // text-decoration: none;
 }
 
 button.home-button:hover {
-  background-color: #e81212;
+  background-color: #0083ff;
   font-size: 19px;
   // transform: scale(1..1) rotate(360deg);
 }
@@ -50,6 +51,7 @@ button.home-button:hover {
   color: white;
   font-size: 18px;
   font-weight: 700;
+  text-shadow: 2px 2px 4px #000000;
 }
 
  .button-inner:hover {

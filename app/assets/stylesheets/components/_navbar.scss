@@ -1,11 +1,11 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: #202021;
-}
-
-.navbar {
-  position: sticky !important;
-  top: 0 !important;
+  // background-color: transparent;
+  // background-color: #202021;
+  // background-color: rgba(44, 62, 80, 0.25);
+  transition: 0.5s background-color ease;
+    background-color: transparent;
+  // display: flex;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -15,44 +15,44 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.navbar-lewagon-white {
+  // background-color: white;
+  // background-color: #202021;
+  background-color: #1781e9;
+}
+
 div.nav-icons i {
   color: white;
+  font-size: 25px;
 }
+
+.navbar-lewagon.nav-icons {
+  // justify-content: flex-end;
+  // margin-left: 700px;
+}
+
 .navbar {
   box-shadow: 0 7px 6px -6px black;
+  // display: flex;
 }
+
 a.nav-link  {
   color: white !important;
   display: inline-block;
-  height: 20px;
-
-  // color: black;
+  // height: 20px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
 }
+
 .fab {
   padding: 5px;
-
 }
-// .navbar {
-//   justify-content: space-between;
-//   // background: transparent !important;
-//     padding-top: 0;
-//    background-color: white;
+
+
+
+// .navbar-lewagon {
+//   // [...]
+//   background-color: transparent;
+//   transition: 0.5s background-color ease;
 // }
-
-// .navbar-lewagon .navbar-collapse {
-//   flex-grow: 0;
-// }
-
-// // .navbar-lewagon .navbar-brand img {
-// //   width: 40px;
-// // }
-// .navbar {
-//   position: sticky !important;
-//   top: 0 !important;
-// }
-// // .navbar-light {
-// // opacity: 0 !important;
-// // }
-
-
-

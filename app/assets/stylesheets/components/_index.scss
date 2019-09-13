@@ -4,6 +4,7 @@
 @import "navbar";
 @import "banner";
 @import "footer";
+@import "social-sidebar";
 
 
 // #wrapper {
@@ -12,4 +13,13 @@
 // }
 body {
   background-color: #2C292F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ h2 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif !important;
 }
