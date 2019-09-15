@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-sm navbar-dark navbar-lewagon fixed-top d-flex">
+<div class="navbar navbar-scroll navbar-expand-sm navbar-dark navbar-lewagon fixed-top d-flex">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -16,9 +16,11 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About us</a>
-      </li>
+      <%= link_to about_path do %>
+        <li class="nav-item">
+            <p class="link-p">About Us</p>
+        </li>
+      <% end %>
       <div class="nav-icons">
         <a href="https://www.instagram.com/marchforourplanet/" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="#"><i class="fab fa-facebook"></i></a>

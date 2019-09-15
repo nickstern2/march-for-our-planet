@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   get "education", to: 'pages#education', as: :education
 
+  get "about", to: "pages#about", as: :about
+
 end
