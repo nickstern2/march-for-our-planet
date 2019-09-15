@@ -7,7 +7,7 @@ const initChartLine = () => {
   var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ["1999", "2005", "20010", "2019"],
+        labels: ["2005", "2007", "2009", "2011", "2013", "2015", "2017", "2019"],
         datasets: [{
             label: "Data",
             borderColor: "#80b6f4",
@@ -21,7 +21,7 @@ const initChartLine = () => {
             pointRadius: 3,
             fill: false,
             borderWidth: 4,
-            data: [10, 20, 50, 170]
+            data: [378.21, 382.67, 386.63, 391.03, 395.40, 399.73, 405.75, 411.84]
         }]
     },
     options: {
@@ -33,9 +33,12 @@ const initChartLine = () => {
                 ticks: {
                     fontColor: "rgba(0,0,0,0.5)",
                     fontStyle: "bold",
-                    beginAtZero: true,
+                    beginAtZero: 0,
                     maxTicksLimit: 5,
-                    padding: 20
+                    padding: 20,
+                    callback: function(value, index, values) {
+                        return value + " " + 'ppm';
+                    }
                 },
                 gridLines: {
                     drawTicks: false,
@@ -48,9 +51,10 @@ const initChartLine = () => {
                     zeroLineColor: "transparent"
                 },
                 ticks: {
-                    padding: 20,
+                    padding: 1,
                     fontColor: "rgba(0,0,0,0.5)",
-                    fontStyle: "bold"
+                    fontStyle: "bold",
+
                 }
             }]
         }
