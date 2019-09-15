@@ -1,6 +1,6 @@
 #carbon-wrapper {
   // height: 100vh;
-  background-color: gray;
+  background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,10 +16,10 @@
   margin: 0 auto;
 }
 
-canvas#myBarChart {
-  height: 400px;
-  width: 400px;
-}
+// canvas#myBarChart {
+//   height: 400px;
+//   width: 400px;
+// }
 
 .carbon-img {
   justify-content: flex-end;
@@ -28,13 +28,13 @@ canvas#myBarChart {
 
 
 .carbon-text h2 {
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 40px;
 }
 
 .carbon-text p {
-  color: white;
+  color: black;
   font-size: 20px;
 }
 // @media (min-width: 100px) and (max-width: 575px) {

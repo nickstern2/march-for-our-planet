@@ -1,6 +1,6 @@
 #temp-wrapper {
   // height: 100vh;
-  background-color: gray;
+  background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,12 @@
 
 
 .temp-text h1, .temp-text p {
-  color: white;
+  color: black;
+}
+
+div.col-12.col-lg-6.temp-img {
+  display: flex;
+  align-items: center;
 }
 
 .temp-text h2 {
