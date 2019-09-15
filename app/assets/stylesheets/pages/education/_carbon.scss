@@ -13,7 +13,7 @@
 }
 
 .carbon-holder {
-  height: 80vh;
+  // height: 80vh;
   // width: 90%;
 }
 
@@ -55,23 +55,33 @@
 }
 
 //************IMG Responsiveness***************
-// **********NEEDS WORK*******
-// @media (max-width: 768px){
-//   .scarbon-img img{
-//     transform: none !important;
-//   }
-//   .carbon-img {
-//     position: relative !important;
-//     /* This is just some top padding */
-//     padding-top: 30px;
-//   }
-// }
+@media (min-width: 100px) and (max-width: 575px) {
+  .img {
+    height: 200px;
+    width: 300px;
+  }
+}
 
-//**********Got from stackoverflow*********
-// @media screen and (max-width:500px){
-//   #carbon-wrapper{
-//     display: block;
-//     width: 100%;
-//     margin-right: 0;
-//   }
-// }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #img {
+    height: 200px;
+    width: 250px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #img {
+    height: 300px;
+    width: 400px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #img {
+  height: 300px;
+  width: 450px;
+  }
+}
