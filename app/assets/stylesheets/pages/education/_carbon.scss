@@ -10,15 +10,22 @@
   justify-content: flex-start;
 }
 
+.temp-img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+canvas#myBarChart {
+  height: 400px;
+  width: 400px;
+}
+
 .carbon-img {
   justify-content: flex-end;
   align-self: center;
 }
 
-.carbon-holder {
-  // height: 80vh;
-  // width: 90%;
-}
 
 .carbon-text h2 {
   color: white;
