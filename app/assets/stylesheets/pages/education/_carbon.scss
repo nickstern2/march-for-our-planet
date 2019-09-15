@@ -1,6 +1,9 @@
 #carbon-wrapper {
-  height: 100vh;
+  // height: 100vh;
   background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   // width: 90%;
 }
 .carbon-text {
@@ -27,25 +30,25 @@
   color: white;
   font-size: 20px;
 }
-@media (min-width: 100px) and (max-width: 575px) {
-  #carbon-wrapper {
-    height: 300vh;
-  }
-}
+// @media (min-width: 100px) and (max-width: 575px) {
+//   #carbon-wrapper {
+//     height: 300vh;
+//   }
+// }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  #carbon-wrapper {
-    height: 250vh;
-  }
-}
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   #carbon-wrapper {
+//     height: 250vh;
+//   }
+// }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  #carbon-wrapper {
-    height: 150vh;
-  }
-}
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   #carbon-wrapper {
+//     height: 150vh;
+//   }
+// }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {

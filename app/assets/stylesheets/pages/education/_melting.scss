@@ -1,6 +1,10 @@
 #melting-wrapper {
-  height: 100vh;
+  // height: 100vh;
   background-color: #1781e9;
+  // margin: 5 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .melting-text h2, .melting-text p {
@@ -16,29 +20,29 @@
   font-size: 20px;
 }
 
-@media (min-width: 100px) and (max-width: 575px) {
-  #melting-wrapper {
-    height: 300vh;
-  }
-}
+// @media (min-width: 100px) and (max-width: 575px) {
+//   #melting-wrapper {
+//     height: 300vh;
+//   }
+// }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  #melting-wrapper {
-    height: 250vh;
-  }
-}
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   #melting-wrapper {
+//     height: 250vh;
+//   }
+// }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  #melting-wrapper {
-    height: 150vh;
-  }
-}
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   #melting-wrapper {
+//     height: 150vh;
+//   }
+// }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  #melting-wrapper {
-  height: 120vh;
-  }
-}
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   #melting-wrapper {
+//   height: 120vh;
+//   }
+// }

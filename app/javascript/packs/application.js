@@ -1,10 +1,18 @@
+import Chart from "chart.js";
 import "bootstrap";
 import $ from 'jquery';
 
+
+import { initChartLine } from '../plugins/lineChart';
+import { initBarGraph } from '../plugins/barGraph';
+import { initUpdateNavbarOnScroll } from '../plugins/navbar';
+
+initChartLine();
+initBarGraph();
 // ************  TRANSPARENT NAVBAR **************
 
-import { initUpdateNavbarOnScroll } from '../plugins/navbar';
 initUpdateNavbarOnScroll();
+
 
 // ************ END **************
 $(function () {

@@ -1,6 +1,11 @@
 #education-wrapper {
-  height: 100vh;
+  // height: 100vh;
   background-color: #1781e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  // padding: 10px;
 }
 
 div.facts-container {
