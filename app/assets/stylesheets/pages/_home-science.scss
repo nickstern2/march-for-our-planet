@@ -1,15 +1,21 @@
 #science-wrapper {
   // height: 100vh;
+  margin: 0 auto;
   // background-color: #bc986a;
    // background-image: url(https://res.cloudinary.com/dxy1zcexj/image/upload/v1568567494/concrete_seamless_yoc4jt.jpg);
-  color: white;
-  background-color: #2e2e2e;
-background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+// background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 // background-color: white;
 // background-image: url("https://res.cloudinary.com/dxy1zcexj/image/upload/v1568605618/dark-stripes_xht1zx.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   // align-items: center;
+}
+.science-container {
+  margin: 15px 30px;
+
+  color: #1c1c1c;
+  background-color: #f2efef;
+  box-shadow: 1px 1px 14px -6px black;
 }
 
 .link-science-button:hover {
@@ -26,13 +32,14 @@ background-image: url("https://www.transparenttextures.com/patterns/az-subtle.pn
 .science-title {
 text-decoration-line: underline;
   text-align: center;
-  color: white;
+  color: #1c1c1c;
+  // text-shadow: 2px 2px 4px;
 }
 
 div.home-science-text {
   // font-size: 33px;
   line-height: 1.8;
-  color: white;
+  color: #1c1c1c;
   text-shadow: 2px 2px 4px #000000;
 }
 
