@@ -65,92 +65,100 @@ initUpdateNavbarOnScroll2();
 
 //**********NAV DIS ON SCROLLDOWN-- APPEAR SCROLL UP**************
 //                  ***FOR MAIN NAV***
-$(function () {
-  var lastScrollTop = 0;
-  var $navbar = $('.navbar-scroll');
-  var navbarHeight = $navbar.outerHeight();
-  var movement = 0;
-  var lastDirection = 0;
+// $(function () {
+//   var lastScrollTop = 0;
+//   var $navbar = $('.navbar-scroll');
+//   var navbarHeight = $navbar.outerHeight();
+//   var movement = 0;
+//   var lastDirection = 0;
 
-  $(window).scroll(function(event){
-    var st = $(this).scrollTop();
-    movement += st - lastScrollTop;
+//   $(window).scroll(function(event){
+//     var st = $(this).scrollTop();
+//     movement += st - lastScrollTop;
 
-    if (st > lastScrollTop) { // scroll down
-      if (lastDirection != 1) {
-        movement = 0;
-      }
-      var margin = Math.abs(movement);
-      if (margin > navbarHeight) {
-        margin = navbarHeight;
-      }
-      margin = -margin;
-      $navbar.css('margin-top', margin+"px")
+//     if (st > lastScrollTop) { // scroll down
+//       if (lastDirection != 1) {
+//         movement = 0;
+//       }
+//       var margin = Math.abs(movement);
+//       if (margin > navbarHeight) {
+//         margin = navbarHeight;
+//       }
+//       margin = -margin;
+//       $navbar.css('margin-top', margin+"px")
 
-      lastDirection = 1;
-    } else { // scroll up
-      if (lastDirection != -1) {
-        movement = 0;
-      }
-      var margin = Math.abs(movement);
-      if (margin > navbarHeight) {
-        margin = navbarHeight;
-      }
-      margin = margin-navbarHeight;
-      $navbar.css('margin-top', margin+"px")
+//       lastDirection = 1;
+//     } else { // scroll up
+//       if (lastDirection != -1) {
+//         movement = 0;
+//       }
+//       var margin = Math.abs(movement);
+//       if (margin > navbarHeight) {
+//         margin = navbarHeight;
+//       }
+//       margin = margin-navbarHeight;
+//       $navbar.css('margin-top', margin+"px")
 
-      lastDirection = -1;
-    }
+//       lastDirection = -1;
+//     }
 
-    lastScrollTop = st;
-    // console.log(margin);
-  });
-});
+//     lastScrollTop = st;
+//     // console.log(margin);
+//   });
+// });
 //************END***************
 
 //**********NAV DIS ON SCROLLDOWN-- APPEAR SCROLL UP**************
 //              **FOR SCIENCE_NAV**
-$(function () {
-  var lastScrollTop = 0;
-  var $navbar = $('.navbar-onScroll');
-  var navbarHeight = $navbar.outerHeight();
-  var movement = 0;
-  var lastDirection = 0;
 
-  $(window).scroll(function(event){
-    var st = $(this).scrollTop();
-    movement += st - lastScrollTop;
+// $(function () {
+//   var lastScrollTop = 0;
+//   var $navbar = $('.navbar-onScroll');
+//   var navbarHeight = $navbar.outerHeight();
+//   var movement = 0;
+//   var lastDirection = 0;
 
-    if (st > lastScrollTop) { // scroll down
-      if (lastDirection != 1) {
-        movement = 0;
-      }
-      var margin = Math.abs(movement);
-      if (margin > navbarHeight) {
-        margin = navbarHeight;
-      }
-      margin = -margin;
-      $navbar.css('margin-top', margin+"px")
+//   // if ($(document).scrollTop() > 60) {
 
-      lastDirection = 1;
-    } else { // scroll up
-      if (lastDirection != -1) {
-        movement = 0;
-      }
-      var margin = Math.abs(movement);
-      if (margin > navbarHeight) {
-        margin = navbarHeight;
-      }
-      margin = margin-navbarHeight;
-      $navbar.css('margin-top', margin+"px")
+//   $(window).scroll(function(event){
+//     var st = $(this).scrollTop();
+//     movement += st - lastScrollTop;
 
-      lastDirection = -1;
-    }
+//     if (st > lastScrollTop) { // scroll down
+//       if (lastDirection != 1) {
+//         movement = 0;
+//       }
+//       var margin = Math.abs(movement);
+//       if (margin > navbarHeight) {
+//         margin = navbarHeight;
+//       }
+//       margin = -margin;
+//       $navbar.css('margin-top', margin+"px")
 
-    lastScrollTop = st;
-    // console.log(margin);
-  });
-});
+//       lastDirection = 1;
+//     } else { // scroll up
+//       if (lastDirection != -1) {
+//         movement = 0;
+//       }
+//       var margin = Math.abs(movement);
+//       if (margin > navbarHeight) {
+//         margin = navbarHeight;
+//       }
+//       margin = margin-navbarHeight;
+//       $navbar.css('margin-top', margin+"px")
+
+//       lastDirection = -1;
+//     }
+
+//     lastScrollTop = st;
+//     // console.log(margin);
+
+//   });
+
+//   // } else {
+//   //   $navbar.addClass('fixed');
+//   // }
+// });
 
 //***************************
 
