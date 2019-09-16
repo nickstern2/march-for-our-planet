@@ -184,3 +184,20 @@ $(document).on("click touchstart", ".toggle-text-button", function() {
 
 });
 // ***********END***************
+
+// *********To-top***********
+
+var btn = $('#to-top-button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
