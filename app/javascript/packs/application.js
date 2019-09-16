@@ -4,11 +4,13 @@ import $ from 'jquery';
 
 
 import { initChartLine } from '../plugins/lineChart';
+import { initChartLine2 } from '../plugins/meltingLineChart';
 import { initBarGraph } from '../plugins/barGraph';
 import { initUpdateNavbarOnScroll } from '../plugins/navbar';
 import { initUpdateNavbarOnScroll2 } from '../plugins/navbar';
 
 initChartLine();
+initChartLine2();
 initBarGraph();
 // ************  TRANSPARENT NAVBAR **************
 

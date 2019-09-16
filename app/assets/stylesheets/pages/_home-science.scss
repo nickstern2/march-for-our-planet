@@ -1,14 +1,20 @@
 #science-wrapper {
-  height: 100vh;
+  // height: 100vh;
   // background-color: #bc986a;
    // background-image: url(https://res.cloudinary.com/dxy1zcexj/image/upload/v1568567494/concrete_seamless_yoc4jt.jpg);
-  color: black;
-background-color: white;
-background-image: url("https://res.cloudinary.com/dxy1zcexj/image/upload/v1568605618/dark-stripes_xht1zx.png");
+  color: white;
+  background-color: #2e2e2e;
+background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+// background-color: white;
+// background-image: url("https://res.cloudinary.com/dxy1zcexj/image/upload/v1568605618/dark-stripes_xht1zx.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   // align-items: center;
 }
 
+.link-science-button:hover {
+  text-decoration: none;
+}
 
 .container-flex {
   display: flex;
@@ -20,13 +26,13 @@ background-image: url("https://res.cloudinary.com/dxy1zcexj/image/upload/v156860
 .science-title {
 text-decoration-line: underline;
   text-align: center;
-  color: black;
+  color: white;
 }
 
 div.home-science-text {
   // font-size: 33px;
   line-height: 1.8;
-  color: black;
+  color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -47,25 +53,14 @@ div.home-science-text {
 
 button.science-button:hover {
   background-color: #2ead1d;
-  // font-size: 19px;
-  // transform: scale(1..1) rotate(360deg);
-  text-decoration: none !important;
+  font-weight: bold;
 }
 
  button.science-button-inner:hover {
   color: #ffffff;
   // font-size: 19px;
-  text-decoration: none !important;
   // font-weight: 900;
  }
- .science-button-inner {
-text-decoration: none !important;
- }
-
-
-span.science-button-inner:hover {
-  text-decoration: none !important;
-}
 
 span.science-button-inner {
   // text-decoration: none;
