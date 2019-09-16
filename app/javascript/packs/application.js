@@ -23,44 +23,44 @@ initUpdateNavbarOnScroll2();
 // *********Paralax*********
 //   *Don't seem to need*
 
-function simpleParallax() {
-    //This variable is storing the distance scrolled
-    var scrolled = $(window).scrollTop() + 1;
+// function simpleParallax() {
+//     //This variable is storing the distance scrolled
+//     var scrolled = $(window).scrollTop() + 1;
 
-    //Every element with the class "scroll" will have parallax background
-    //Change the "0.3" for adjusting scroll speed.
-    $('.scroll-img').css('background-position', '0' + -(scrolled * 0.3) + 'px');
-}
-//Everytime we scroll, it will fire the function
-$(window).scroll(function (e) {
-    simpleParallax();
-});
+//     //Every element with the class "scroll" will have parallax background
+//     //Change the "0.3" for adjusting scroll speed.
+//     $('.scroll-img').css('background-position', '0' + -(scrolled * 0.3) + 'px');
+// }
+// //Everytime we scroll, it will fire the function
+// $(window).scroll(function (e) {
+//     simpleParallax();
+// });
 
-function simpleParallax2() {
-    //This variable is storing the distance scrolled
-    var scrolled = $(window).scrollTop() + 1;
+// function simpleParallax2() {
+//     //This variable is storing the distance scrolled
+//     var scrolled = $(window).scrollTop() + 1;
 
-    //Every element with the class "scroll" will have parallax background
-    //Change the "0.3" for adjusting scroll speed.
-    $('.scroll-img2').css('background-position', '0' + -(scrolled * 0.3) + 'px');
-}
-//Everytime we scroll, it will fire the function
-$(window).scroll(function (e) {
-    simpleParallax();
-});
+//     //Every element with the class "scroll" will have parallax background
+//     //Change the "0.3" for adjusting scroll speed.
+//     $('.scroll-img2').css('background-position', '0' + -(scrolled * 0.3) + 'px');
+// }
+// //Everytime we scroll, it will fire the function
+// $(window).scroll(function (e) {
+//     simpleParallax();
+// });
 
-function simpleParallax3() {
-    //This variable is storing the distance scrolled
-    var scrolled = $(window).scrollTop() + 1;
+// function simpleParallax3() {
+//     //This variable is storing the distance scrolled
+//     var scrolled = $(window).scrollTop() + 1;
 
-    //Every element with the class "scroll" will have parallax background
-    //Change the "0.3" for adjusting scroll speed.
-    $('.scroll-img3').css('background-position', '0' + -(scrolled * 0.3) + 'px');
-}
-//Everytime we scroll, it will fire the function
-$(window).scroll(function (e) {
-    simpleParallax();
-});
+//     //Every element with the class "scroll" will have parallax background
+//     //Change the "0.3" for adjusting scroll speed.
+//     $('.scroll-img3').css('background-position', '0' + -(scrolled * 0.3) + 'px');
+// }
+// //Everytime we scroll, it will fire the function
+// $(window).scroll(function (e) {
+//     simpleParallax();
+// });
 //*****************END*****************************
 
 //**********NAV DIS ON SCROLLDOWN-- APPEAR SCROLL UP**************
