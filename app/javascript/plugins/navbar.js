@@ -19,5 +19,18 @@ export { initUpdateNavbarOnScroll };
 // ************ END **************
 
 
+const initUpdateNavbarOnScroll2 = () => {
+  const navbar = document.querySelector('.navbar-science');
+  if (navbar) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= window.innerHeight - 600) {
+        navbar.classList.add('navbar-lewagon-black');
+      } else {
+        navbar.classList.remove('navbar-lewagon-black');
+      }
+    });
+  }
+}
 
+export { initUpdateNavbarOnScroll2 };
 

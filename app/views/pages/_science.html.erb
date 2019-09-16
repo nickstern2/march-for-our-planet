@@ -1,21 +1,25 @@
 <div id="science-wrapper">
-  <div class="d-flex">
-    <div class="container title-container p-5">
-      <h2 class="" style="font-size: 70px;"><strong>Science Facts</strong></h2>
-      <p style="font-size: 30px;"><em>Learn what is really going on with our planet. (placeholder)</em></p>
-
-      <%= link_to education_path do %>
-        <button class="science-button">
-          <span class="science-button-inner">Learn more</span>
-        </button>
-      <% end %>
-       <!--  <div class="container p-5 facts-container" style="font-size: 30px;">
-          <p>1: <strong>Historic carbon levels</strong></p>
-          <p>2: <strong>Record Breaking Temperatures</strong></p>
-          <p>3: <strong>Extreme Storms & Flooding </strong></p>
-          <p>4: <strong>Melting Ice & Sea Level Rise</strong></p>
-        </div> -->
-    </div>
-
+  <h2 class="science-title" style="font-size: 70px; line-height: 1.8;"><strong>Science Facts</strong></h2>
+    <div class="container-flex">
+      <div class="title-container p-3">
+        <div class="row slideanim">
+          <div class="col-12 col-lg-12">
+            <p class="" style="font-size: 40px; line-height: 2.0; text-align:center;"><em><strong>LEARN</strong><br> WHAT'S REALLY GOING ON <br>WITH OUR PLANET.</em></p>
+          </div>
+          <!-- <div class=" home-science-text col-12 col-lg-6">
+                <p>1: Historic carbon levels </p>
+                <p>2: Record Breaking Temperatures </p>
+                <p>3: Extreme Storms & Flooding  </p>
+                <p>4: Melting Ice & Sea Level Rise </p>
+          </div> -->
+        </div>
+            <div class="d-flex flex-button slideanim" style="font-size: 30px; justify-content: center">
+            <%= link_to education_path do %>
+              <button class="science-button">
+                <span class="science-button-inner">Learn more</span>
+              </button>
+            <% end %>
+          </div>
+      </div>
   </div>
 </div>

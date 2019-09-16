@@ -1,19 +1,31 @@
 #education-wrapper {
-  height: 100vh;
-  background-color: #1781e9;
-  // display: flex;
+  // background-color: #1781e9;
+  // height: 100vh;
+  display: flex;
+
   // justify-content: center;
-  // align-items: center;
+  align-items: center;
   // margin: 0 auto;
   // padding: 10px;
+}
+.education-image {
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no;
+}
+
+.education-text {
+  // margin-top: 50px;
+
 }
 
 div.facts-container {
   color: #f7f7f7;
 }
 
-.science-fact-link:hover {
-  // font-weight: bold;
+p.science-fact-link:hover {
+  font-weight: bold;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -21,6 +33,7 @@ div.facts-container {
   font-size: 60px;
   font-weight: bold;
   margin-bottom: 30px;
+   text-shadow: 2px 2px 4px #000000;
 }
 
 .facts-container a {

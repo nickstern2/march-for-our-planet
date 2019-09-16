@@ -1,6 +1,8 @@
 #carbon-wrapper {
   // height: 100vh;
-  background-color: #f4f4f4;
+  // background: rgb(19,30,43);
+background-image: url(https://res.cloudinary.com/dxy1zcexj/image/upload/v1568567494/concrete_seamless_yoc4jt.jpg);
+  // background-image: url(https://res.cloudinary.com/dxy1zcexj/image/upload/v1568567494/concrete_seamless_yoc4jt.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,13 +30,13 @@
 
 
 .carbon-text h2 {
-  color: black;
+  color: #1f2021;
   font-weight: bold;
   font-size: 40px;
 }
 
 .carbon-text p {
-  color: black;
+  color: #1f2021;
   font-size: 20px;
 }
 // @media (min-width: 100px) and (max-width: 575px) {
@@ -58,40 +60,40 @@
 // }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  #carbon-wrapper {
-  height: 120vh;
-  }
-}
+// @media (min-width: 992px) {
+//   #carbon-wrapper {
+//   height: 120vh;
+//   }
+// }
 
-//************IMG Responsiveness***************
-@media (min-width: 100px) and (max-width: 575px) {
-  .img {
-    height: 200px;
-    width: 300px;
-  }
-}
+// //************IMG Responsiveness***************
+// @media (min-width: 100px) and (max-width: 575px) {
+//   .img {
+//     height: 200px;
+//     width: 300px;
+//   }
+// }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  #img {
-    height: 200px;
-    width: 250px;
-  }
-}
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   #img {
+//     height: 200px;
+//     width: 250px;
+//   }
+// }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  #img {
-    height: 300px;
-    width: 400px;
-  }
-}
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   #img {
+//     height: 300px;
+//     width: 400px;
+//   }
+// }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  #img {
-  height: 300px;
-  width: 450px;
-  }
-}
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   #img {
+//   height: 300px;
+//   width: 450px;
+//   }
+// }

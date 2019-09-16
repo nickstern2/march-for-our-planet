@@ -1,4 +1,14 @@
+// .row {
+//   justify-content: space-between;
+// }
+.navbar-science {
+  display: flex;
+}
 
+.navbar-science:last-child {
+  // display: flex;
+  justify-content: flex-end;
+}
 .navbar-science .navbar-collapse {
   flex-grow: 0;
 }
@@ -8,7 +18,7 @@
 }
 
 .navbar-science {
-  background-color: black;
+  background-color: #161616;
 }
 
 div.nav-icons i {
@@ -20,13 +30,20 @@ div.nav-icons i {
   box-shadow: 0 7px 6px -6px black;
   // display: flex;
 }
-
-.link-p {
-  //Drop home link to match rest
-  margin-top: 8px;
+.navbar-science {
+transition: 0.5s background-color ease;
+    background-color: transparent;
+    justify-content: space-between;
 }
+
+.navbar-lewagon-black {
+  // background-color: white;
+  // background-color: #202021;
+  background-color: black;
+}
+
 p.link-p {
-  // margin: 5 6px;
+  margin: 0 5px;
 }
 
 a.nav-link  {
@@ -45,7 +62,6 @@ li.nav-item {
   font-size: 20px;
   text-shadow: 2px 2px 4px #000000;
 }
-
 
 .fab {
   padding: 5px;

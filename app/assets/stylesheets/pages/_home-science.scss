@@ -1,39 +1,76 @@
 #science-wrapper {
   height: 100vh;
-  background-color: #141413;
-  color: white;
+  // background-color: #bc986a;
+   // background-image: url(https://res.cloudinary.com/dxy1zcexj/image/upload/v1568567494/concrete_seamless_yoc4jt.jpg);
+  color: black;
+background-color: white;
+background-image: url("https://res.cloudinary.com/dxy1zcexj/image/upload/v1568605618/dark-stripes_xht1zx.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  // align-items: center;
+}
+
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+}
+
+
+.science-title {
+text-decoration-line: underline;
+  text-align: center;
+  color: black;
+}
+
+div.home-science-text {
+  // font-size: 33px;
+  line-height: 1.8;
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .science-button {
   // margin-top: 20px;
   border: 1px;
-  height: 55px;
-  width: 160px;
+  height: 77px;
+  width: 257px;
   // color: #fff7f7;
   background-color: #277f1d;
-  border-radius: 26px;
+  border-radius: 49px;
   text-decoration: none;
-  // text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 button.science-button:hover {
   background-color: #2ead1d;
-  font-size: 19px;
+  // font-size: 19px;
   // transform: scale(1..1) rotate(360deg);
+  text-decoration: none !important;
 }
 
-.science-button-inner {
-  color: white;
-  font-size: 18px;
-  font-weight: 700;
-  text-shadow: 2px 2px 4px #000000;
-}
-
- .science-button-inner:hover {
+ button.science-button-inner:hover {
   color: #ffffff;
-  font-size: 19px;
-  font-weight: 900;
+  // font-size: 19px;
+  text-decoration: none !important;
+  // font-weight: 900;
  }
-.facts-container {
-  // justify-content: flex-end;
+ .science-button-inner {
+text-decoration: none !important;
+ }
+
+
+span.science-button-inner:hover {
+  text-decoration: none !important;
+}
+
+span.science-button-inner {
+  // text-decoration: none;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000000;
 }

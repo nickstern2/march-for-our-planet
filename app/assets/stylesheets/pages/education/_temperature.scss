@@ -1,8 +1,15 @@
 #temp-wrapper {
   // height: 100vh;
-  background-color: #f4f4f4;
+  background-image: url(https://res.cloudinary.com/dxy1zcexj/image/upload/v1568567494/concrete_seamless_yoc4jt.jpg);
+   // background-color: #1781e9;
+// background-image: url("https://res.cloudinary.com/dxy1zcexj/image/upload/v1568604647/cream-paper_g6bewz.png");
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.temp-img {
+  display: flex;
   align-items: center;
 }
 

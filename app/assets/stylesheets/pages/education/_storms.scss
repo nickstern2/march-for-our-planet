@@ -1,14 +1,23 @@
 #storm-wrapper {
-  // height: 100vh;
-  background-color: #1781e9;
+  // background-color: #2b2b2b;
+//   background-color: black;
+// background-image: url("https://res.cloudinary.com/dxy1zcexj/image/upload/v1568604647/cream-paper_g6bewz.png");
+// background-image: url(https://res.cloudinary.com/dxy1zcexj/image/upload/v1568567494/concrete_seamless_yoc4jt.jpg);
+background-color: #f7f2f7;
 
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.storms-chart {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .storm-text h1, .storm-text p {
-  color: white;
+  color: black;
 }
 
 .storm-text h2 {
