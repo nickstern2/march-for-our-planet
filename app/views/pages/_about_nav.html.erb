@@ -15,6 +15,11 @@
             <p class="link-p-3">Science</p>
         </li>
       <% end %>
+      <%= link_to faq_path, class:"link-text-dec-3" do %>
+         <li class="nav-item-3">
+            <p class="link-p-3">FAQ</p>
+         </li>
+      <% end %>
       <%= link_to about_path, class:"link-text-dec-3" do %>
         <li class="nav-item-3">
             <p class="link-p-3">About Us</p>
@@ -29,3 +34,5 @@
       </div>
   </div>
 </div>
+
+<%= render "footer" %>

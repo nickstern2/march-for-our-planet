@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   get "about", to: "pages#about", as: :about
 
+  get "faq", to: "pages#faq", as: :faq
+
 end

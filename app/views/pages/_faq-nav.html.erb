@@ -1,26 +1,28 @@
-<div class="navbar navbar-scroll navbar-expand-sm navbar-dark navbar-lewagon fixed-top d-flex">
+<div class="navbar navbar-expand-sm navbar-dark fixed-top d-flex" style="background-color: black;">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#top">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#science-top-border">Science</a>
-      </li>
-      <%= link_to faq_path, class:"main-nav-link" do %>
-        <li class="nav-item">
-            <p class="link-p">FAQ</p>
+      <%= link_to root_path, class:"link-text-dec-3" do %>
+        <li class="nav-item-3">
+            <p class="link-p-3">Home</p>
         </li>
       <% end %>
-      <%= link_to about_path, class:"main-nav-link" do %>
-        <li class="nav-item">
-            <p class="link-p">About Us</p>
+       <%= link_to education_path, class:"link-text-dec-3" do %>
+        <li class="nav-item-3">
+            <p class="link-p-3">Science</p>
+        </li>
+      <% end %>
+      <%= link_to faq_path, class:"link-text-dec-3" do %>
+         <li class="nav-item-3">
+            <p class="link-p-3">FAQ</p>
+         </li>
+      <% end %>
+      <%= link_to about_path, class:"link-text-dec-3" do %>
+        <li class="nav-item-3">
+            <p class="link-p-3">About Us</p>
         </li>
       <% end %>
     </ul>
@@ -32,6 +34,3 @@
       </div>
   </div>
 </div>
-
-
-
