@@ -4,12 +4,15 @@
   padding: 150px 0;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  // margin-left: 20px;
 }
-.banner-title {
+.banner-content {
   // border: 1px solid black;
   // margin-right: 300px !important;
+  margin-left: 50px;
+  margin-bottom: 100px;
 }
 
 span.banner-title {
