@@ -57,6 +57,11 @@ a.nav-link  {
   padding: 5px;
 }
 
+@media (max-width:767px) {
+  .navbar {
+    background-color: black;
+  }
+}
 
 
 // .navbar-lewagon {
