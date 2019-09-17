@@ -1,3 +1,39 @@
 .home-video {
 
 }
+.video-button {
+  // margin-top: 20px;
+  border: 1px;
+  height: 55px;
+  width: 160px;
+  // color: #fff7f7;
+  background-color: #d10c0c;
+  border-radius: 26px;
+  text-decoration: none;
+  // text-decoration: none;
+}
+// .video-button {
+//   margin-left: 100px;
+// }
+
+button.video-button:hover {
+  background-color: #ff0505;
+  font-size: 19px;
+  text-decoration: none;
+  // transform: scale(1..1) rotate(360deg);
+}
+
+.video-button-inner {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+ .video-button-inner:hover {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 900;
+ }
+
+
