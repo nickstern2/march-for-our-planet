@@ -6,7 +6,12 @@
   transition: 0.5s background-color ease;
     background-color: transparent;
   // display: flex;
+  top: -70px; /* you'll have to figure out the exact number here */
 }
+
+.navbar-fixed-top {
+}
+
 .main-nav-link {
   margin-top: 8px;
 }
