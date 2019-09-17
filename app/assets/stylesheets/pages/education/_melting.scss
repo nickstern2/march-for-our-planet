@@ -1,6 +1,8 @@
 #melting-wrapper {
   // background-image: url(https://res.cloudinary.com/dxy1zcexj/image/upload/v1568567494/concrete_seamless_yoc4jt.jpg);
-
+display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f7f2f7;
 // background-image: url("https://res.cloudinary.com/dxy1zcexj/image/upload/v1568604647/cream-paper_g6bewz.png");
 
@@ -22,29 +24,12 @@
   font-size: 20px;
 }
 
-// @media (min-width: 100px) and (max-width: 575px) {
-//   #melting-wrapper {
-//     height: 300vh;
-//   }
-// }
+.melting-text {
+  justify-content: flex-end;
+  align-self: center;
+}
 
-// // Small devices (landscape phones, 576px and up)
-// @media (min-width: 576px) {
-//   #melting-wrapper {
-//     height: 250vh;
-//   }
-// }
-
-// // Medium devices (tablets, 768px and up)
-// @media (min-width: 768px) {
-//   #melting-wrapper {
-//     height: 150vh;
-//   }
-// }
-
-// // Large devices (desktops, 992px and up)
-// @media (min-width: 992px) {
-//   #melting-wrapper {
-//   height: 120vh;
-//   }
-// }
+.melting-img {
+  justify-content: flex-end;
+  align-self: center;
+}

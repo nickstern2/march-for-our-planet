@@ -1,37 +1,27 @@
 <div id="science-wrapper">
-
-  <%# if !(request.user_agent =~ /Mobile/ || request.user_agent =~ /(tablet|ipad)|(android(?!.*mobile))/i) %>
-   <!--  <style>
-      #science-wrapper {
-        height: 70vh;
-      }
-    </style> -->
-  <%# end %>
-
-<div class="container science-container">
-
-  <h2 class="science-title" style="font-size: 70px; line-height: 1.8;"><strong>Science Facts</strong></h2>
-    <div class="container-flex container">
-      <div class="title-container">
-        <div class="row slideanim">
-          <div class="col-12 col-lg-12">
-            <p class="" style="font-size: 40px; text-align:center;"><em>LEARN<br><strong>WHAT'S REALLY GOING ON</strong></p>
+  <div class="container science-container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-6">
+    <!-- <div class=""> -->
+          <h2 class="science-title" style="font-size: 60px; line-height: 1.8;"><strong>Science Facts</strong></h2>
+            <div class="container-flex container">
+              <div class="title-container">
+                  <div class="row slideanim">
+                    <div class="col-12 col-lg-12">
+                      <p class="" style="font-size: 30px; text-align:center;">LEARN<br><strong>WHAT'S REALLY GOING ON</strong></p>
+                    </div>
+                </div>
+                <div class="d-flex flex-button" style="font-size: 30px; justify-content: center; padding-bottom: 10px;">
+                  <%= link_to education_path, class:"link-science-button" do %>
+                    <button class="science-button slideanim" style="outline: none;">
+                      <span class="science-button-inner">Learn more</span>
+                    </button>
+                  <% end %>
+                </div>
+            </div>
           </div>
-          <!-- <div class=" home-science-text col-12 col-lg-6">
-                <p>1: Historic carbon levels </p>
-                <p>2: Record Breaking Temperatures </p>
-                <p>3: Extreme Storms & Flooding  </p>
-                <p>4: Melting Ice & Sea Level Rise </p>
-          </div> -->
         </div>
-            <div class="d-flex flex-button" style="font-size: 30px; justify-content: center; padding-bottom: 10px;">
-            <%= link_to education_path, class:"link-science-button" do %>
-              <button class="science-button slideanim">
-                <span class="science-button-inner">Learn more</span>
-              </button>
-            <% end %>
-          </div>
-      </div>
+      <!-- </div> -->
+    </div>
   </div>
-</div>
 </div>

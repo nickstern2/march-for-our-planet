@@ -1,22 +1,13 @@
 <%= render "nav" %>
-  <!-- <div id="top" class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://cdn.vox-cdn.com/thumbor/QbK6eH-TGuxTgStqCsNYk652NSk=/0x0:6519x4346/920x613/filters:focal(2739x1652:3781x2694):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/64012812/GettyImages_1150190120.0.jpg')"> -->
     <div id="top bg1" class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://res.cloudinary.com/dxy1zcexj/image/upload/v1568385631/march-home-banner_j8b9vm.jpg')">
       <div class="row banner-content d-flex justify-content-start">
-
         <div class="container">
             <div class="col-12 col-lg-12">
-          <!-- <div class="highlight-title"> -->
-            <!-- <h1 class="banner-title" style="background-color: #999999;">March For Our Planet!</h1> -->
-
-            <span class="banner-title" style="background-color: rgb(153, 153, 153, 0.5);">March For Our Planet!</span>
-          <!-- </div> -->
-          <!-- <p>Buy our <strong>merch</strong>!</p> -->
+            <span class="banner-title">March For Our Planet!</span>
           </div>
           <div class="col-12 col-lg-6">
-
             <a class="home-button" href="https://actionnetwork.org/event_campaigns/us-climate-strikes" target="_blank">
-
-          <button class="home-button">
+          <button class="home-button" style="outline: none;">
               <span class="button-inner">Fight Now</span>
           </button>
             </a>
@@ -41,17 +32,11 @@
 <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
 
 <% if !(request.user_agent =~ /Mobile/ || request.user_agent =~ /(tablet|ipad)|(android(?!.*mobile))/i) %>
-    <%#= render "footer" %>
     <%= render "parralax" %>
     <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
 <% end %>
   <%= render "science" %>
   <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
-
-
-  <%#= render "parralax" %>
-
-
 
 <%= render "footer" %>
 

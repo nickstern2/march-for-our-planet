@@ -1,17 +1,11 @@
 #science-wrapper {
   // height: 100vh;
-  margin: 0 auto;
-  // background-color: #bc986a;
-   // background-image: url(https://res.cloudinary.com/dxy1zcexj/image/upload/v1568567494/concrete_seamless_yoc4jt.jpg);
-// background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-// background-color: white;
-// background-image: url("https://res.cloudinary.com/dxy1zcexj/image/upload/v1568605618/dark-stripes_xht1zx.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  // align-items: center;
+  // margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .science-container {
-  margin: 15px 30px;
+  // margin: 15px 30px;
 
   color: #1c1c1c;
   background-color: #f2efef;
@@ -44,11 +38,9 @@ div.home-science-text {
 }
 
 .science-button {
-  // margin-top: 20px;
   border: 1px;
   height: 77px;
   width: 257px;
-  // color: #fff7f7;
   background-color: #277f1d;
   border-radius: 49px;
   text-decoration: none;
